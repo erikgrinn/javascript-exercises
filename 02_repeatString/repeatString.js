@@ -1,6 +1,6 @@
-const repeatString = function(string, num) {
-    let myString = String(string)
-    let myNum = Number(num)
+const repeatString = function(inputString, inputNum) {
+    let myString = String(inputString)
+    let myNum = Number(inputNum)
 
     if (myNum === 0) {
         return ''
